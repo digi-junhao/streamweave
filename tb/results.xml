@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1784926487" />
-    <testcase name="adder_random" classname="test_adder" file="/home/dingdongdi/streamweave/tb/test_adder.py" lineno="4" time="0.002188444137573242" sim_time_ns="200.0" ratio_time="91389.12735592113" />
+    <property name="random_seed" value="1784942818" />
+    <testcase name="adder_random" classname="test_adder" file="/home/dingdongdi/streamweave/tb/test_adder.py" lineno="4" time="0.002565145492553711" sim_time_ns="200.0" ratio_time="77968.28701552188" />
   </testsuite>
 </testsuites>
