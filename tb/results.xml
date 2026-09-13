@@ -1,0 +1,11 @@
+<testsuites name="results">
+  <testsuite name="all" package="all">
+    <property name="random_seed" value="1788784360" />
+    <testcase name="test_zoo_continuous" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="131" time="0.0017189979553222656" sim_time_ns="1010.0" ratio_time="587551.600554785" />
+    <testcase name="test_zoo_bursty" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="140" time="0.001989126205444336" sim_time_ns="1340.0000000000002" ratio_time="673662.6345439291" />
+    <testcase name="test_random_continuous" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="149" time="0.009364604949951172" sim_time_ns="5400.0" ratio_time="576639.3808238709" />
+    <testcase name="test_random_bursty" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="159" time="0.012466907501220703" sim_time_ns="8100.000000000001" ratio_time="649720.068846816" />
+    <testcase name="test_state_holds_across_long_gap" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="169" time="0.0008127689361572266" sim_time_ns="250.0" ratio_time="307590.49574655324" />
+    <testcase name="test_reset_clears_progress" classname="Regex" file="/home/dingdongdi/streamweave/tb/Regex.py" lineno="195" time="0.00019216537475585938" sim_time_ns="70.0" ratio_time="364269.5781637717" />
+  </testsuite>
+</testsuites>

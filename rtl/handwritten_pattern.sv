@@ -12,7 +12,7 @@ parameter Idle = 2'b00;
 parameter G = 2'b01;
 parameter GE = 2'b10;
 
-always @(posedge clk, reset)
+always @(posedge clk)
     if(reset)
         state <= Idle;
 
@@ -31,7 +31,7 @@ begin
 
         Idle: next_state = (in_byte == "G") ? G : Idle;
         G: next_state = (in_byte == "E") ? GE : (in_byte == "G") ? G : Idle;
-        GE: next_state = (in_byte != "G") ? G : Idle;
+        GE: next_state = (in_byte == "G") ? G : Idle;
         default: next_state = Idle;
 
     endcase
