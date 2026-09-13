@@ -5,8 +5,6 @@ Stage 1 of the compiler, both halves:
 - **Part I — the tokeniser** (stage 1a). Regex text in, a flat list of tokens out.
 - **Part II — the parser** (stage 1b). That token list in, an abstract syntax tree out.
 
-Thompson construction (stage 2) turns the tree into an NFA; codegen (stage 4) turns the NFA into
-SystemVerilog. This document explains both halves to someone who has written neither.
 
 **v1 supports the classic Thompson core and nothing else:** literals, concatenation, alternation
 `|`, grouping `()`, and Kleene star `*`. That is the exact language Thompson's 1968 construction was
