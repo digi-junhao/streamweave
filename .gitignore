@@ -1,5 +1,30 @@
+# Python
 .venv/
 __pycache__/
+*.py[cod]
+.pytest_cache/
+
+# cocotb / Verilator build output
+tb/sim_build/
 sim_build/
+results.xml
 *.vcd
 *.fst
+
+# Quartus
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+*.qws
+*.rpt
+*.summary
+*.done
+*.jdi
+*.pin
+*.sof
+*.pof
+
+# Editor / OS
+.vscode/
+.DS_Store
